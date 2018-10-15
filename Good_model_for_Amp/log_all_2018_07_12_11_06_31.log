@@ -1,0 +1,221 @@
+================================================
+{
+    "testing": {
+        "patch_size_PE": 288,
+        "patch_size_FE": 384
+    },
+    "MODEL_NAME": "u_net_bn_new_2",
+    "INPUT_SIZE": 384,
+    "PE_size_ori": 288,
+    "FE_size_ori": 384,
+    "Scale": 1,
+    "LEARNING_RATE": 0.0001,
+    "TRAINING_EPOCHS": 250000,
+    "BATCH_SIZE": 16,
+    "DISPLAY_STEP": 10,
+    "crop_size_PE": 80,
+    "crop_size_FE": 80,
+    "validation_PE": 288,
+    "validation_FE": 384,
+    "early_stop_number": 40,
+    "NUM_CHANNELS": 6,
+    "Train_filename": "train",
+    "Test_filename": "train\\ceshi",
+    "tfrecord_filename": "Amp_6channel.tfrecord",
+    "restore_model_filename": "model_Amp_6channel_bn_7_11\\u_net_bn_new_2\\good\\mymodel",
+    "save_model_filename": "model_Amp_6channel_bn_7_12\\u_net_bn_new_2\\common\\mymodel",
+    "save_model_filename_best": "model_Amp_6channel_bn_7_12\\u_net_bn_new_2\\good\\mymodel",
+    "Test_Batch_size": 4,
+    "TESTING_NUM": 12,
+    "log_dir": "log_u_net_bn_new_2"
+}
+================================================
+Best_epoch: 0
+ Epoch: 1
+ mse val: 0.0008779789980811378
+Best_epoch: 1000
+ Epoch: 1001
+ mse val: 0.0004957348185901841
+Best_epoch: 2000
+ Epoch: 2001
+ mse val: 0.00044663729931926355
+Best_epoch: 3000
+ Epoch: 3001
+ mse val: 0.0004009960878950854
+Best_epoch: 3000
+ Epoch: 4001
+ mse val: 0.00042280756679247133
+Best_epoch: 5000
+ Epoch: 5001
+ mse val: 0.0003839034628375278
+Best_epoch: 5000
+ Epoch: 6001
+ mse val: 0.0003853307571262121
+Best_epoch: 5000
+ Epoch: 7001
+ mse val: 0.0004062240635297106
+Best_epoch: 8000
+ Epoch: 8001
+ mse val: 0.0003610888537271724
+Best_epoch: 8000
+ Epoch: 9001
+ mse val: 0.0003669424671291684
+Best_epoch: 8000
+ Epoch: 10001
+ mse val: 0.00036950136806505424
+Best_epoch: 11000
+ Epoch: 11001
+ mse val: 0.00035763787309406325
+Best_epoch: 12000
+ Epoch: 12001
+ mse val: 0.00035141896175143
+Best_epoch: 12000
+ Epoch: 13001
+ mse val: 0.00036036520153478097
+Best_epoch: 14000
+ Epoch: 14001
+ mse val: 0.00034889589248147484
+Best_epoch: 14000
+ Epoch: 15001
+ mse val: 0.0003519973458120755
+Best_epoch: 16000
+ Epoch: 16001
+ mse val: 0.0003474568087161363
+Best_epoch: 17000
+ Epoch: 17001
+ mse val: 0.00034419207683337544
+Best_epoch: 18000
+ Epoch: 18001
+ mse val: 0.00033793797774706036
+Best_epoch: 18000
+ Epoch: 19001
+ mse val: 0.0003493082573792587
+Best_epoch: 18000
+ Epoch: 20001
+ mse val: 0.00033914734255328466
+Best_epoch: 18000
+ Epoch: 21001
+ mse val: 0.0003444221474637743
+Best_epoch: 22000
+ Epoch: 22001
+ mse val: 0.00033445528242737055
+Best_epoch: 22000
+ Epoch: 23001
+ mse val: 0.00033908804713670787
+Best_epoch: 22000
+ Epoch: 24001
+ mse val: 0.0003419796339585446
+Best_epoch: 22000
+ Epoch: 25001
+ mse val: 0.00033844264180515893
+Best_epoch: 22000
+ Epoch: 26001
+ mse val: 0.0003381466146189875
+Best_epoch: 22000
+ Epoch: 27001
+ mse val: 0.0003386200029732815
+Best_epoch: 22000
+ Epoch: 28001
+ mse val: 0.0003366421454605491
+Best_epoch: 22000
+ Epoch: 29001
+ mse val: 0.000336574967756557
+Best_epoch: 22000
+ Epoch: 30001
+ mse val: 0.00033633299365950126
+Best_epoch: 22000
+ Epoch: 31001
+ mse val: 0.00033666710199516575
+Best_epoch: 22000
+ Epoch: 32001
+ mse val: 0.00033870472907437943
+Best_epoch: 22000
+ Epoch: 33001
+ mse val: 0.0003389626399439294
+Best_epoch: 22000
+ Epoch: 34001
+ mse val: 0.0003418100301738984
+Best_epoch: 35000
+ Epoch: 35001
+ mse val: 0.0003338033505618417
+Best_epoch: 35000
+ Epoch: 36001
+ mse val: 0.00034256555469861877
+Best_epoch: 35000
+ Epoch: 37001
+ mse val: 0.0003387534561625216
+Best_epoch: 35000
+ Epoch: 38001
+ mse val: 0.00033744844161750126
+Best_epoch: 35000
+ Epoch: 39001
+ mse val: 0.00033696796648049104
+Best_epoch: 35000
+ Epoch: 40001
+ mse val: 0.00034287682744131115
+Best_epoch: 35000
+ Epoch: 41001
+ mse val: 0.00033761683759318356
+Best_epoch: 35000
+ Epoch: 42001
+ mse val: 0.0003496800187955766
+Best_epoch: 35000
+ Epoch: 43001
+ mse val: 0.00033841761736160453
+Best_epoch: 35000
+ Epoch: 44001
+ mse val: 0.0003363837374005622
+Best_epoch: 35000
+ Epoch: 45001
+ mse val: 0.0003408099849669573
+Best_epoch: 35000
+ Epoch: 46001
+ mse val: 0.0003442337377540146
+Best_epoch: 35000
+ Epoch: 47001
+ mse val: 0.00033699145933496766
+Best_epoch: 35000
+ Epoch: 48001
+ mse val: 0.0003380430377243708
+Best_epoch: 35000
+ Epoch: 49001
+ mse val: 0.0003365968417104644
+Best_epoch: 35000
+ Epoch: 50001
+ mse val: 0.00034143183802370913
+Best_epoch: 35000
+ Epoch: 51001
+ mse val: 0.0003422103909542784
+Best_epoch: 35000
+ Epoch: 52001
+ mse val: 0.00034191508651322994
+Best_epoch: 35000
+ Epoch: 53001
+ mse val: 0.00033864990109577775
+Best_epoch: 35000
+ Epoch: 54001
+ mse val: 0.00034233675251016393
+Best_epoch: 35000
+ Epoch: 55001
+ mse val: 0.00033971517041209154
+Best_epoch: 35000
+ Epoch: 56001
+ mse val: 0.0003437598861637525
+Best_epoch: 35000
+ Epoch: 57001
+ mse val: 0.0003445822003413923
+Best_epoch: 35000
+ Epoch: 58001
+ mse val: 0.00034148658354145783
+Best_epoch: 35000
+ Epoch: 59001
+ mse val: 0.00035235402901889756
+Best_epoch: 35000
+ Epoch: 60001
+ mse val: 0.0003464113093893199
+Best_epoch: 35000
+ Epoch: 61001
+ mse val: 0.0003401933220933036
+Best_epoch: 35000
+ Epoch: 62001
+ mse val: 0.0003430002046419152

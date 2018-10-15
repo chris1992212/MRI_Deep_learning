@@ -1,0 +1,110 @@
+================================================
+{
+    "testing": {
+        "patch_size_PE": 288,
+        "patch_size_FE": 384
+    },
+    "MODEL_NAME": "u_net_bn_new_2",
+    "INPUT_SIZE": 384,
+    "PE_size_ori": 288,
+    "FE_size_ori": 384,
+    "Scale": 1,
+    "LEARNING_RATE": 0.0001,
+    "TRAINING_EPOCHS": 250000,
+    "BATCH_SIZE": 16,
+    "DISPLAY_STEP": 10,
+    "crop_size_PE": 80,
+    "crop_size_FE": 80,
+    "validation_PE": 288,
+    "validation_FE": 384,
+    "early_stop_number": 40,
+    "NUM_CHANNELS": 3,
+    "Train_filename": "train\\complex_three_channel\\caiyue",
+    "Test_filename": "train\\ceshi\\sense_PF_4_three_channel",
+    "Test_filename2": "train\\ceshi\\hanlu",
+    "tfrecord_filename": "Amp_3channel.tfrecord",
+    "save_model_filename": "model_complex_3_channel_bn_7_16\\u_net_bn_new_2\\common2\\mymodel",
+    "save_model_filename_best": "model_complex_3_channel_bn_7_16\\u_net_bn_new_2\\good2\\mymodel",
+    "Test_Batch_size": 4,
+    "TESTING_NUM": 72,
+    "log_dir": "log_u_net_bn_new_2"
+}
+================================================
+Best_epoch: 0
+ Epoch: 1
+ mse val: 0.0008401900513490546
+ mse_src: 0.0008398783793381881
+ mse_training:0.0005919668882496706 
+ mse_train_src:0.0005915753865540157 
+Best_epoch: 1000
+ Epoch: 1001
+ mse val: 0.0006021916209040986
+ mse_src: 0.0008398783793381881
+ mse_training:0.0004186281029332248 
+ mse_train_src:0.0005915753865540157 
+Best_epoch: 2000
+ Epoch: 2001
+ mse val: 0.000525404938849129
+ mse_src: 0.0008398783793381881
+ mse_training:0.0003678761202334297 
+ mse_train_src:0.0005915753865540157 
+Best_epoch: 3000
+ Epoch: 3001
+ mse val: 0.0005091273407944957
+ mse_src: 0.0008398783793381881
+ mse_training:0.00035059386462105776 
+ mse_train_src:0.0005915753865540157 
+Best_epoch: 3000
+ Epoch: 4001
+ mse val: 0.0005184513444570863
+ mse_src: 0.0008398783793381881
+ mse_training:0.00035709081223305676 
+ mse_train_src:0.0005915753865540157 
+Best_epoch: 5000
+ Epoch: 5001
+ mse val: 0.0005019028894821531
+ mse_src: 0.0008398783793381881
+ mse_training:0.00033563384729657427 
+ mse_train_src:0.0005915753865540157 
+Best_epoch: 6000
+ Epoch: 6001
+ mse val: 0.000497358372538454
+ mse_src: 0.0008398783793381881
+ mse_training:0.00034281659665996104 
+ mse_train_src:0.0005915753865540157 
+Best_epoch: 6000
+ Epoch: 7001
+ mse val: 0.0005155822611616006
+ mse_src: 0.0008398783793381881
+ mse_training:0.00036136377800883364 
+ mse_train_src:0.0005915753865540157 
+Best_epoch: 6000
+ Epoch: 8001
+ mse val: 0.0005100280405814475
+ mse_src: 0.0008398783793381881
+ mse_training:0.00040450662022016733 
+ mse_train_src:0.0005915753865540157 
+Best_epoch: 9000
+ Epoch: 9001
+ mse val: 0.00046265138492647867
+ mse_src: 0.0008398783793381881
+ mse_training:0.00031780183487878984 
+ mse_train_src:0.0005915753865540157 
+Best_epoch: 9000
+ Epoch: 10001
+ mse val: 0.0004841056090501499
+ mse_src: 0.0008398783793381881
+ mse_training:0.0003405963810412989 
+ mse_train_src:0.0005915753865540157 
+Best_epoch: 9000
+ Epoch: 11001
+ mse val: 0.0004694293570032136
+ mse_src: 0.0008398783793381881
+ mse_training:0.000332841278779799 
+ mse_train_src:0.0005915753865540157 
+Best_epoch: 12000
+ Epoch: 12001
+ mse val: 0.0004364046026239521
+ mse_src: 0.0008398783793381881
+ mse_training:0.00029610570638599 
+ mse_train_src:0.0005915753865540157 
